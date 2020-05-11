@@ -1,0 +1,9 @@
+@import "../../../styles/global/variables.scss";
+
+.module-blocks {
+  @include media-breakpoint-down(sm) {
+    .shape-dots-medium {
+      display: none;
+    }
+  }
+}

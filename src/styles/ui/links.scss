@@ -1,0 +1,14 @@
+.link-arrow {
+  .app-icon {
+    font-size: 0.75rem;
+    transition: transform $transition ease;
+  }
+
+  &:hover {
+    color: $primary;
+
+    .app-icon {
+      transform: translateX(10px);
+    }
+  }
+}

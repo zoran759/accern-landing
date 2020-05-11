@@ -1,0 +1,7 @@
+@import '../global/variables.scss';
+
+input.input-shadow {
+  background-color: $white;
+  border-color: $white;
+  box-shadow: $shadow-2;
+}

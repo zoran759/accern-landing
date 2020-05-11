@@ -1,0 +1,21 @@
+@import "../../../styles/global/variables.scss";
+
+.rows {
+  &.reduced-margin {
+    .sect-spacer {
+      &:first-child {
+        padding-top: $section-spacer/2;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    &.reduced-margin {
+      .sect-spacer {
+        &:first-child {
+          padding-top: 0;
+        }
+      }
+    }
+  }
+}

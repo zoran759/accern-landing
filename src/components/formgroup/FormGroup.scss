@@ -1,0 +1,57 @@
+@import "../../styles/global/variables.scss";
+
+
+.form-group{
+  &.advanced {
+    background-color: transparent;
+    position: relative;
+    border-color: transparent;
+
+    ::placeholder{
+      color: rgba($dark, 0.4);
+    }
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: $border-color;
+      z-index: 1;
+    }
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      transform: scaleX(0);
+      transform-origin: center left;
+      background-color: $primary;
+      transition: transform $transition*2 $transition-timing ;
+      z-index: 2;
+    }
+
+    &.active {
+      &:after {
+        transform: scaleX(1);
+      }
+    }
+
+    input, textarea {
+      background-color: transparent;
+      border-color: transparent;
+      text-transform: uppercase;
+      font-size: 0.875rem;
+      font-weight: 400;
+      letter-spacing: 0.164rem;
+      color: $dark;
+    }
+  }
+}

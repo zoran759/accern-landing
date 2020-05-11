@@ -1,0 +1,10 @@
+@import "../../../styles/global/variables.scss";
+
+.solutions {
+
+  @include media-breakpoint-down(sm) {
+    .shape-lines {
+      display: none;
+    }
+  }
+}
