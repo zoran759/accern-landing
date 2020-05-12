@@ -58,9 +58,9 @@ export const settings = {
             label: "Solutions",
             size: 12,
             links: [
-              { name: "Investments", description: "View our solutions around investment research and portfolio risk.", link: "#", icon: "icon-investments.svg" },
-              { name: "Banking", component: "Banking", description: "View our solutions around credit risk and fraud detection.", link: "/banking", icon: "icon-bank.svg" },
-              { name: "Insurance", description: "View our solutions around insurance underwriting and claims automation.", link: "#", icon: "icon-insurance.svg" },
+              { name: "Investments", description: "View our solutions around investment research and portfolio risk.", link: "#", icon: "icon-link-coming.svg", isComing: true },
+              { name: "Banking", component: "Banking", description: "View our solutions around credit risk and fraud detection.", link: "#", icon: "icon-link-coming.svg", isComing: true },
+              { name: "Insurance", description: "View our solutions around insurance underwriting and claims automation.", link: "#", icon: "icon-link-coming.svg", isComing: true },
               { name: "Technology", description: "View our solutions around building new AI features for your core products.", link: "#", icon: "icon-link-coming.svg", isComing: true },
               { name: "Government", description: "View our solutions around public threats, disease outbreaks, and logistics.", link: "#", icon: "icon-link-coming.svg", isComing: true },
               { name: "Life Science", description: "View our solutions for the life science industry", link: "#", icon: "icon-link-coming.svg", isComing: true },
@@ -141,9 +141,9 @@ export const settings = {
   },
 
   requestTrial: {
-    label: "ACCERN AI DEVELOPER",
+    label: "Accern AI Platform",
     title: "Accelerate AI Workflows",
-    description: "Get a 14-day trial of our AI Developer platform and start accelerating AI within your organization.",
+    description: "Get a 14-day free trial Accern and start accelerating AI within your organization.",
     customers: {
       label: "NOTABLE CUSTOMERS",
       columns: [

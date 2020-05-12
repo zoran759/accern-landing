@@ -26,7 +26,7 @@ const GetStarted = () => {
                 <Col lg={6} className="d-flex align-items-center justify-content-left justify-content-md-end">
                   <Form className="d-inline-flex w-480">
                     <div className="w-100 d-flex flex-column flex-md-row">
-                      <Form.Control className="theme-light mb-4 mb-md-0" type="email" value={userMail} onChange={e => dispatchUserMail({type: "SET_USER_MAIL", data:e.target.value})} placeholder="Email adress" required />
+                      <Form.Control className="theme-light mb-4 mb-md-0" type="email" value={userMail} onChange={e => dispatchUserMail({type: "SET_USER_MAIL", data:e.target.value})} placeholder="Email address" required />
                       <Button variant="light" onClick={()=>dispatchRequestTrial({type:"SET_REQUEST_TRIAL", data:true})}>{settings.getstarted.link.name}</Button>
                     </div>
                   </Form>

@@ -62,7 +62,7 @@ export const page = {
       {
         label: "Adaptive NLP Models",
         title: "Adaptive NLP Models",
-        description: "Browse one of the largest collection of adaptive NLP models for finance which you can use immediately. In addition, you can retrain each of our models to fit your needs or simply upload your own NLP models.",
+        description: "Browse one of the largest collections of adaptive NLP models for finance, which you can use immediately. In addition, you can retrain each of our models to fit your needs or simply upload your own NLP models.",
         img: "adaptive-models-illustration.svg",
         link: {
           link: "/adaptive-nlp",
@@ -71,7 +71,7 @@ export const page = {
       {
         label: "Deployment",
         title: "Secured & Flexible Deployment Options",
-        description: "We have a wide variety of deployment options to fit your security needs. If you want advanced enterprise-grade security, we can deploy and manage a private dedicated cloud instance or setup an on-premise deployment for you.",
+        description: "We have a wide variety of deployment options to fit your security needs. If you want advanced enterprise-grade security, we can deploy and manage a private dedicated cloud instance or set up an on-premise deployment for you.",
         img: "deployment-illustration.svg",
         link: {
           link: "/deployments",
@@ -80,7 +80,7 @@ export const page = {
       {
         label: "Integrations",
         title: "Seamless Workflow Integrations",
-        description: "We have hundreds of integrations with popular business applications and databases which allows for seamless import of your data to Accern, along with quick export of your AI solutions to your everyday workflow apps.",
+        description: "We have hundreds of integrations with popular business applications and databases, which allows for seamless import of your data to Accern and quick export of your AI solutions to your everyday workflow apps.",
         img: "integrations-illustrations.svg",
         link: {
           link: "/integrations",

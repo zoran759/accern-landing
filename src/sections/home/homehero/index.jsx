@@ -37,7 +37,7 @@ const HomeHero = ({ isVisible }) => {
                 </h1>
                 <Form className="form-base d-inline-flex w-480 mb-4">
                   <div className="w-100 d-flex flex-column flex-md-row">
-                    <Form.Control type="email" className="input-shadow mb-4 mb-md-0" value={userMail} onChange={e => dispatchUserMail({type: "SET_USER_MAIL", data:e.target.value})} placeholder="Email adress" required />
+                    <Form.Control type="email" className="input-shadow mb-4 mb-md-0" value={userMail} onChange={e => dispatchUserMail({type: "SET_USER_MAIL", data:e.target.value})} placeholder="Email address" required />
                     <Button variant="primary" onClick={()=>dispatchRequestTrial({type:"SET_REQUEST_TRIAL", data:true})}>Free Trial</Button>
                   </div>
                 </Form>

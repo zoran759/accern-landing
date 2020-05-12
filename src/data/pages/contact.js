@@ -10,8 +10,8 @@ export const page = {
     isForm: true,
     map: {
       locations: [
-        { address: "55 Broadway,<br/>New York, NY 10006,<br/>Suite 416<br/>+1 (347) 745-6649<br>info@accern.com", lat: 40.706851, lng: -74.013031, icon: "icon-new-york" },
-        { address: "UMIYA Business Bay Tower 2,<br/>Cessna Business Park,<br/>Bengaluru, Karnataka 560103", lat: 12.933843, lng: 77.694211, icon: "icon-bengaluru" },
+        { address: "55 Broadway,<br/>Suite 416<br/>New York, NY 10006<br/>+1 (347) 745-6649<br>info@accern.com", lat: 40.706851, lng: -74.013031, icon: "icon-new-york" },
+        { address: "UMIYA Business Bay Tower 2,<br/>Cessna Business Park<br/>Bengaluru, Karnataka 560103", lat: 12.933843, lng: 77.694211, icon: "icon-bengaluru" },
       ],
       styles: [
         {
@@ -76,12 +76,12 @@ export const page = {
     },
     form: {
       label: "GET IN TOUCH",
-      title: "Request Trial",
+      title: "Request a Free Trial",
       message: "That's All, thank you!",
       fields: [
         { name: "name", type: "text", placeholder: "Name", className: "advanced", required: true },
         { name: "company", type: "text", placeholder: "Company", className: "advanced", required: true },
-        { name: "email", type: "email", placeholder: "E-mail", className: "advanced", required: true },
+        { name: "email", type: "email", placeholder: "Email", className: "advanced", required: true },
         { name: "phone", type: "text", placeholder: "Phone Number", className: "advanced" },
         { name: "message", type: "textarea", placeholder: "Message", className: "advanced", required: true },
       ]
@@ -90,10 +90,10 @@ export const page = {
 
   emails: {
     columns: [
-      { label: "Sales", link: {name: "Sales@accern.com", link: "mailto:sales@accern.com" } },
-      { label: "Media", link: {name: "Media@accern.com", link: "mailto:media@accern.com"} },
-      { label: "Investments", link: {name: "Investments@accern.com", link: "mailto:investments@accern.com"} },
-      { label: "Partnership", link: {name: "Partners@accern.com", link: "mailto:partners@accern.com"}},
+      { label: "Sales", link: {name: "sales@accern.com", link: "mailto:sales@accern.com" } },
+      { label: "Media", link: {name: "media@accern.com", link: "mailto:media@accern.com"} },
+      { label: "Investments", link: {name: "investments@accern.com", link: "mailto:investments@accern.com"} },
+      { label: "Partnership", link: {name: "partners@accern.com", link: "mailto:partners@accern.com"}},
     ]
   },
 }

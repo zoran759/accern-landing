@@ -10,7 +10,7 @@ export const page = {
     label: "Data Store",
     title: "Select Datasets for Your <strong>AI Solutions</strong>",
     titleCL: "mw-580",
-    description: "Accern comes integrated with one of the largest unstructured news, reports, and social media data marketplace. In additional, you can upload your internal documents or existing data subscriptions to Accern to build your AI solutions.",
+    description: "Accern comes integrated with one of the largest unstructured news, reports, and social media data marketplaces. In addition, you can upload your internal documents or existing data subscriptions to Accern to build your AI solutions.",
     img: "data-hero-illustration.svg",
     button: {
       name: "GET A DEMO",
@@ -20,19 +20,19 @@ export const page = {
 
   integratedData: {
     title: "Integrated Data Marketplace",
-    description: "We take the time-consuming process of procuring, licensing, cleaning, normalizing, and integrating various unstructured text data sources for you. Simply check the data source you are interested in using on our platform to activate it for your AI solution.",
+    description: "We take care of the time-consuming process of procuring, licensing, cleaning, normalizing, and integrating various unstructured text data sources for you. Simply select the data source you are interested in using on our platform to activate it for your AI solution.",
     img: "integrated-data-illustration.svg",
     className: "bg-light",
     reverse: true,
   },
 
   additionalFeatures: {
-    title: "Check Our Additional Features",
+    title: "Check Out Our Additional Features",
     titleCL: "mw-440",
     columns: [
       { title: "AutoML Taxonomy", description: "Build custom taxonomy at scale with our AutoML taxonomy generator.", icon: "icon-taxonomy.svg"},
-      { title: "Adaptive NLP Models", description: "Check out various NLP models which can be used out-of-box or retrain for your use.", icon: "icon-adaptive-nlp.svg"},
-      { title: "Deployments", description: "Select from a list of secured deployment options available.", icon: "icon-deployment.svg"},
+      { title: "Adaptive NLP Models", description: "Check out various NLP models that you can use out-of-the-box or retrain for your needs.", icon: "icon-adaptive-nlp.svg"},
+      { title: "Deployments", description: "Select from a list of secured deployment options.", icon: "icon-deployment.svg"},
       { title: "Integrations", description: "Import your data and export solutions seamlessly into your everyday workflows.", icon: "icon-integrations.svg"},
     ]
   },
@@ -40,13 +40,13 @@ export const page = {
   dataSubscriptions: {
     title: "Connect Existing Data Subscriptions",
     titleCL: "mw-440",
-    description: "We can help you navigate and connect your existing data subscription services to Accern in a secured environment. We can go beyond this coverage for your industry.",
+    description: "We can help you navigate and connect your existing data subscription services to Accern in a secured environment.",
     className: "bg-light",
     columns: [
       { title: "Bloomberg", icon: "icon-bloomberg.png",},
       { title: "FactSet", icon: "icon-factset.png",},
       { title: "Markit", icon: "icon-markit.png",},
-      { title: "Morningstar, Inc.", icon: "icon-morningstar.png",},
+      { title: "Morningstar", icon: "icon-morningstar.png",},
       { title: "Refinitiv", icon: "icon-refinitive.png",},
       { title: "S&P Capital IQ", icon: "icon-capital.png",},
       { title: "SIX Financial", icon: "icon-financial.png",},
@@ -78,26 +78,26 @@ export const page = {
     columns: [
       { title: "News", status: "online", badge: "In Platform",  description: "45,000 sources of global, regional and local news.", icon: "icon-news.svg", iconH: "icon-news-h.svg"},
       { title: "Blogs", status: "online", badge: "In Platform", description: "Over 1 billion indexed worldwide blogs.", icon: "icon-blogs.svg", iconH: "icon-blogs-h.svg"},
-      { title: "Dow Jones", status: "online", badge: "In Platform", description: "Premium global news via Dow Jones Institutional Newswire", icon: "icon-dow-jones.svg", iconH: "icon-dow-jones-h.svg"},
-      { title: "SEC", status: "online", badge: "In Platform", description: "10Ks and 10Ks real-time SEC filings available to use in your AI solutions.", icon: "icon-sec.svg", iconH: "icon-sec-h.svg"},
-      { title: "Broadcast News", status: "offline", badge: "On Request", description: "Transcripts of the US TV & radio market.", icon: "icon-broadcast-news.svg", iconH: "icon-broadcast-news-h.svg"},
+      { title: "Dow Jones", status: "online", badge: "In Platform", description: "Accern News Analytics, Powered By Dow Jones Institutional Newswire", icon: "icon-dow-jones.svg", iconH: "icon-dow-jones-h.svg"},
+      { title: "SEC", status: "online", badge: "In Platform", description: "10Ks real-time SEC filings available to use in your AI solutions.", icon: "icon-sec.svg", iconH: "icon-sec-h.svg"},
+      { title: "Broadcast News", status: "offline", badge: "On Request", description: "Transcripts of the U.S. TV & radio markets.", icon: "icon-broadcast-news.svg", iconH: "icon-broadcast-news-h.svg"},
       { title: "Videos", status: "offline", badge: "On Request", description: "A wide array of video hosting sites that hold a massive collection of content.", icon: "icon-videos.svg", iconH: "icon-videos-h.svg"},
       { title: "Reviews", status: "offline", badge: "On Request", description: "200+ review sites focused on consumer products and travel.", icon: "icon-reviews.svg", iconH: "icon-reviews-h.svg"},
       { title: "Message Boards", status: "offline", badge: "On Request", description: "Millions of global communities debating every topic imaginable.", icon: "icon-message-boards.svg", iconH: "icon-message-boards-h.svg"},
-      { title: "VKontakte", status: "offline", badge: "On Request", description: "The largest social network and most visited site in Russia.", icon: "icon-vkontakte.svg", iconH: "icon-vkontakte-h.svg"},
+      { title: "VKontakte", status: "offline", badge: "On Request", description: "The largest social network and most-visited site in Russia.", icon: "icon-vkontakte.svg", iconH: "icon-vkontakte-h.svg"},
       { title: "Weibo", status: "offline", badge: "On Request", description: "China’s largest public social network.", icon: "icon-weibo.svg", iconH: "icon-weibo-h.svg"},
       { title: "Reddit", status: "offline", badge: "On Request", description: "The front page of the internet with deeply engaged community commenting.", icon: "icon-reddit.svg", iconH: "icon-reddit-h.svg"},
-      { title: "Disqus", status: "offline", badge: "On Request", description: "The largest independent commenting platform reacts to news in real-time.", icon: "icon-disqus.svg", iconH: "icon-disqus-h.svg"},
+      { title: "Disqus", status: "offline", badge: "On Request", description: "The largest independent commenting platform reacting to news in real time.", icon: "icon-disqus.svg", iconH: "icon-disqus-h.svg"},
       { title: "Wordpress", status: "offline", badge: "On Request", description: "Posts and comments from Worldpress.com and popular WP-powered sites globally.", icon: "icon-wordpress.svg", iconH: "icon-wordpress-h.svg"},
       { title: "Verticalscope", status: "offline", badge: "On Request", description: "Hundreds of major communities covering a lot of topics.", icon: "icon-verticalscope.svg", iconH: "icon-verticalscope-h.svg"},
       { title: "Tencent", status: "offline", badge: "On Request", description: "The front page of the internet with deeply engaged community commenting.", icon: "icon-tencent.svg", iconH: "icon-tencent-h.svg"},
-      { title: "Twitter", status: "offline", badge: "On Request", description: "One of the largest microblogging services with over 300 million tweets/day.", icon: "icon-twitter.svg", iconH: "icon-twitter-h.svg"},
+      { title: "Twitter", status: "offline", badge: "On Request", description: "One of the largest microblogging services, with over 300 million tweets/day.", icon: "icon-twitter.svg", iconH: "icon-twitter-h.svg"},
     ]
   },
 
   dataPartner: {
     title: "Data Partner",
-    description: "We’re always excited about new partnerships. Become Our Data Partner",
+    description: "We’re always excited about new partnerships. Become Our Data Partner!",
     button: {
       name: "Become Our Data Partner",
       link: "#"

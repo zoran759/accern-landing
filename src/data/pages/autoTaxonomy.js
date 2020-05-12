@@ -10,7 +10,7 @@ export const page = {
     label: "AutoML Taxonomy",
     title: "Build industry taxonomy using <strong>AutoML</strong>",
     titleCL: "mw-580",
-    description: "Accern provides a taxonomy generator that can help you build specific industry taxonomy at scale using AutoML. However, customers can also use our pre-built taxonomy to get started immediately or simply upload their own.",
+    description: "Accern provides a taxonomy generator that can help you build specific industry taxonomy at scale using AutoML. You can also use our pre-built taxonomy to get started immediately, or simply upload your own.",
     img: "taxonomy-illustration.svg",
     button: {
       name: "GET A DEMO",
@@ -32,19 +32,19 @@ export const page = {
       { title: "C-Suite Executives", label: "10,000+", icon: "icon-c-suite-executives.svg"},
       { title: "Products", label: "20,000+", icon: "icon-products.svg"},
       { title: "Subsidiaries", label: "10,000+", icon: "icon-subsidiaries.svg"},
-      { title: "Theme Classifiers", label: "35+", icon: "icon-theme-classifiers.svg"},
+      { title: "Themes Classifiers", label: "35+", icon: "icon-theme-classifiers.svg"},
       { title: "Financial Events", label: "200+", icon: "icon-financial-events.svg"},
     ]
   },
 
   additionalFeatures: {
-    title: "Check Our Additional Features",
+    title: "Check Out Our Additional Features",
     titleCL: "mw-440",
     className: "bg-light mb-spacer",
     columns: [
       { title: "Data Store", description: "Choose from a wide collection of datasets or simply connect your own for analysis.", icon: "icon-data.svg" },
-      { title: "Adaptive NLP Models", description: "Check out various NLP models which can be used out-of-box or retrain for your use.", icon: "icon-adaptive-nlp.svg"},
-      { title: "Deployments", description: "Select from a list of secured deployment options available.", icon: "icon-deployment.svg"},
+      { title: "Adaptive NLP Models", description: "Check out various NLP models that you can use out-of-the-box or retrain for your needs.", icon: "icon-adaptive-nlp.svg"},
+      { title: "Deployments", description: "Select from a list of secured deployment options.", icon: "icon-deployment.svg"},
       { title: "Integrations", description: "Import your data and export solutions seamlessly into your everyday workflows.", icon: "icon-integrations.svg"},
     ]
   },
@@ -54,7 +54,7 @@ export const page = {
       {
         title: "Adaptive Learning Entity Classification",
         titleCL: "mw-500",
-        description: "Using Named Entity Recognition (NER), we are able to automate multiple variations from a given list of entities such as companies, people, place, and more. You can use our existing data corpus or upload your own industry specific corpus as a training set to build your entities taxonomy.",
+        description: "Using Named Entity Recognition (NER), we are able to automate multiple variations from a list of entities such as companies, people, places, and more. You can use our existing data corpus or upload your own industry-specific corpus as a training set to build your entity's taxonomy.",
         img: "adaptive-learning-illustration.svg",
         link: {
           link: "#",
@@ -72,7 +72,7 @@ export const page = {
       },
       {
         title: "Upload Your Own Taxonomy",
-        description: "If you have an existing taxonomy which you have spend months and years building, you can simply connect it to Accern for immediate use. We save you countless time by allowing you to reusing what you have already built.",
+        description: "If you have an existing taxonomy that you have spent months or years building, you can simply connect it to Accern for immediate use. We save you countless hours by allowing you to reuse what you have already built.",
         img: "upload-taxonomy-illustration.svg",
       },
     ]

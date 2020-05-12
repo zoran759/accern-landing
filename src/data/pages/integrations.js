@@ -19,13 +19,13 @@ export const page = {
   },
 
   additionalFeatures: {
-    title: "Check Our Additional Features",
+    title: "Check Out Our Additional Features",
     titleCL: "mw-440",
     columns: [
-      { title: "Data", description: "Choose from a wide collection of datasets or simply connect your own for analysis.", icon: "icon-data.svg" },
-      { title: "Auto-Taxonomy", description: "Build custom taxonomy at scale with our machine-learn taxonomy generator.", icon: "icon-taxonomy.svg" },
-      { title: "Adaptive NLP Models", description: "Check out various NLP models which can be used out-of-box or retrain for your use.", icon: "icon-adaptive-nlp.svg" },
-      { title: "Deployment", description: "Choose from deployment options that will help you feel secure and assured. ", icon: "icon-deployment.svg" },
+      { title: "Data Store", description: "Choose from a wide collection of datasets or simply connect your own for analysis.", icon: "icon-data.svg" },
+      { title: "AutoML Taxonomy", description: "Build custom taxonomy at scale with our AutoML taxonomy generator.", icon: "icon-taxonomy.svg" },
+      { title: "Adaptive NLP Models", description: "Check out various NLP models that you can use out-of-the-box or retrain for your needs.", icon: "icon-adaptive-nlp.svg" },
+      { title: "Deployments", description: "Select from a list of secured deployment options.", icon: "icon-deployment.svg" },
     ]
   },
 
@@ -78,7 +78,7 @@ export const page = {
 
   requestIntegration: {
     title: "Request integration",
-    description: "Don’t see the integrations you’re looking for? Request it now, and we will add it!",
+    description: "Don’t see the integration you’re looking for? Request it now, and we will add it!",
     button: {
       name: "REQUEST integrations",
       link: "#"
