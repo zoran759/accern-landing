@@ -48,6 +48,7 @@ export const page = {
         img: "data-illustration.svg",
         link: {
           link: "/data",
+          name: "Explore Data Store"
         }
       },
       {
@@ -57,6 +58,7 @@ export const page = {
         img: "taxonomy-illustration.svg",
         link: {
           link: "/auto-taxonomy",
+          name: "Explore AutoML Taxonomy"
         }
       },
       {
@@ -66,6 +68,7 @@ export const page = {
         img: "adaptive-models-illustration.svg",
         link: {
           link: "/adaptive-nlp",
+          name: "Explore Adaptive NLP Models"
         }
       },
       {
@@ -75,6 +78,7 @@ export const page = {
         img: "deployment-illustration.svg",
         link: {
           link: "/deployments",
+          name: "Explore Deployments"
         }
       },
       {
@@ -84,6 +88,7 @@ export const page = {
         img: "integrations-illustrations.svg",
         link: {
           link: "/integrations",
+          name: "Explore Integrations"
         }
       },
     ]

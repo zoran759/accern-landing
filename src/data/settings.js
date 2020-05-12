@@ -20,8 +20,8 @@ export const settings = {
             size: 2,
             links: [
               { name: "Company", component: "Company", description: "Meet the team and learn how we are changing the world with AI.", link: "/company" },
-              { name: "Customers", description: "See how Accern is helping customers to accelerate AI adoption." },
-              { name: "Careers", description: "Learn about various career paths at Accern and view our open positions." }
+              { name: "Customers", description: "See how Accern is helping customers to accelerate AI adoption.", isComing: true },
+              { name: "Careers", description: "Learn about various career paths at Accern and view our open positions.", isComing: true }
             ]
           },
           {
@@ -89,38 +89,38 @@ export const settings = {
       {
         title: "Features",
         rows: [
-          { name: "Data Store", link: "#" },
-          { name: "AutoML Taxonomy", link: "#" },
-          { name: "Adaptive NLP Models", link: "#" },
-          { name: "Deployments", link: "#" },
-          { name: "Integrations", link: "#" }
+          { name: "Data Store", link: "/data" },
+          { name: "AutoML Taxonomy", link: "/auto-taxonomy" },
+          { name: "Adaptive NLP Models", link: "/adaptive-nlp" },
+          { name: "Deployments", link: "/deployments" },
+          { name: "Integrations", link: "/integrations" }
         ]
       },
       {
         title: "Solutions",
         rows: [
-          { name: "Investments", link: "#" },
-          { name: "Banking", link: "#" },
-          { name: "Insurance", link: "#" },
-          { name: "Technology", link: "#" },
-          { name: "Government", link: "#" }
+          { name: "Investments", link: "" },
+          { name: "Banking", link: "" },
+          { name: "Insurance", link: "" },
+          { name: "Technology", link: "" },
+          { name: "Government", link: "" }
         ]
       },
       {
         title: "Overview",
         rows: [
-          { name: "Company", link: "#" },
-          { name: "Customers", link: "#" },
-          { name: "Careers", link: "#" },
+          { name: "Company", link: "/company" },
+          { name: "Customers", link: "" },
+          { name: "Careers", link: "" },
         ]
       },
       {
         title: "Contact Us",
         rows: [
-          { name: "Sales", link: "#" },
-          { name: "Media", link: "#" },
-          { name: "Investment", link: "#" },
-          { name: "Partnership", link: "#" },
+          { name: "Sales", link: "" },
+          { name: "Media", link: "" },
+          { name: "Investment", link: "" },
+          { name: "Partnership", link: "" },
         ]
       },
     ],
